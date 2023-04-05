@@ -1,20 +1,28 @@
+.two-row{
+  display: flex;
+}
 .viewParentDiv {
   padding-top: 4em;
   display: flex;
+  flex-direction: column;
 }
 .viewParentDiv .imageShowDiv {
   padding: 16px;
-  width: 70vw;
+  width: 55vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
 }
 .viewParentDiv .imageShowDiv img {
-  width: 65vw;
-  height: 85vh;
+  width: 25vw;
+  height: 45vh;
 }
 
 .viewParentDiv .rightSection {
   padding: 16px;
   margin-top: 3em;
   width: 30vw;
+  padding-top: 90px;
 }
 
 .viewParentDiv .rightSection .productDetails :first-child {
@@ -48,3 +56,6 @@
   font-weight: 400;
   padding: 0;
 }
+/* .post-image{
+  height: 100px;
+} */

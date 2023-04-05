@@ -1,6 +1,14 @@
+.loginto{
+  color: black;
+}
+.loginto:hover{
+  text-decoration: none;
+  color: black;
+}
+
 .signupParentDiv {
     border: 1px solid black;
-    width: max-content;
+    width: 380px;
     padding: 10px;
     position: absolute;
     top: 50%;
@@ -10,6 +18,7 @@
   }
   
   .signupParentDiv .input {
+    width: 345px;
     border-top-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;

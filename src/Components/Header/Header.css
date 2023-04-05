@@ -1,3 +1,7 @@
+.login-link{
+  color: black;
+}
+
 .headerParentDiv {
   padding: 10px;
   background-color: whitesmoke;
@@ -94,8 +98,7 @@
   margin-right: 5px;
 }
 
-.language svg {
-}
+
 
 .span {
   text-decoration: none;
